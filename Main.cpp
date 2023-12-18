@@ -1,14 +1,13 @@
 #include <iostream>
 #include "Application.cpp"
+#include "UserCollector.cpp"
 using namespace std;
 
 int main(){
     
-    string enter;
-    //Application app;
-    //app.run();
-    cout << "enter ";
-    cin >> enter;
+    
+    Application app;
+    app.run();
 
     return 0;
 }

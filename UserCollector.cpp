@@ -6,17 +6,14 @@ using namespace std;
 
 class UserCollector{
 private :
-    User *users[100];
-    int count = 0;
+    vector <User> users;
 public :
-    void addUser(User &user){
-       users[count] = &user;
-       count++;
+    void addUser(User u){
+        users.push_back(u);
     }
     void viewUser(){
-        for(int i=0; i<count;i++){
-            users[i]->output();
-            cout << endl;
+        for(auto iter=users.begin();iter!=users.end();iter++){
+            cout<<iter->ToString()<<endl;
         }
     }
 };

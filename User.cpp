@@ -40,11 +40,11 @@ public :
     void output(){
         cout <<"Username : " << getUsername() << "\t\t" << "Password : "<< getPassword() << endl;
     }
-    /*
-    string toString(){
+    
+    string ToString(){
         stringstream ss;
         ss<<"Username : " << getUsername() << "\t\t" << "Password : "<< getPassword() << endl;
         return ss.str();
     }
-    */
+    
 };

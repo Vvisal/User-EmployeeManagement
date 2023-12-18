@@ -12,5 +12,6 @@ public:
     void run(){
         us.input();
         uc.addUser(us);
+        uc.viewUser();
     }
 };
