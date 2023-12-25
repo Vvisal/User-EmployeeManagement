@@ -5,9 +5,8 @@ using namespace std;
 
 int main(){
     
-    
     Application app;
-    app.run();
+    app.runUser();
 
     return 0;
 }

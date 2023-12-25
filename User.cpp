@@ -17,10 +17,10 @@ public :
         this->username = username;
         this->password = password;
     }
-    void setUsername(const string username){
+    void setUsername(string username){
         this->username = username;
     }
-    string getUsername() const{
+    string getUsername(){
         return username;
     }
     void setPassword(const string password){
